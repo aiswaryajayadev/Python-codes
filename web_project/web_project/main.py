@@ -16,7 +16,7 @@ root.geometry("1200x600")
 
 root.title(" Encryption and Decryption")
 
-Tops = Frame(root, width=100, relief=SUNKEN)
+Tops = Frame(root, width=150, relief=SUNKEN)
 Tops.pack(side=TOP)
 
 f1 = Frame(root, width=100, relief=SUNKEN)
