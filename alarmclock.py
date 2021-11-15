@@ -23,7 +23,6 @@ def actual_time():
     clock = Tk()
 clock.title("Alarm clock")
 clock.geometry("1000x500")
-time_format=Label(clock, text = "Enter time in 24 hour format!", fg="black", bg="white",font="timesnewroman").place(x=60, y=120)
 addTime = Label(clock, text="Hour   Min    Sec",font=60).place(x=110)
 setYourAlam=Label(clock,text="Set Alarm : ",fg="blue",relief="solid", font=("times new roman",10,"bold")).place(x=0,y=29)
 hour=StringVar()
